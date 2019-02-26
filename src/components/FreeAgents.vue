@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Free Agents</h1>
+        <h3>Free Agents</h3>
         <Player v-for="(player, index) in freePlayers" :key="index" :name="player.name" />
     </div>
 </template>
