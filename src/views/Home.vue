@@ -2,7 +2,7 @@
   <div class="home">
     <header class="main-header">
         <div class="main-header__logo">
-            <img src="images/st-logo.png" alt="" class="img-responsive">
+            <img src="@/assets/images/st-logo.png" alt="Sofball Tracker Logo" class="img-responsive">
         </div>
     </header>
     <main class="main-wrapper" role="main">

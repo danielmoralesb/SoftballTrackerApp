@@ -20,6 +20,11 @@ export default {
         freePlayers() {
             return this.players.filter(player => !player.team.name)
         }
+    },
+    methods: {
+        playerClicked(info) {
+            this.$emit('show', info, 'add');
+        }
     }
 }
 </script>
